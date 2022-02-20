@@ -189,8 +189,8 @@ public class Model {
      * @return return height in feet and inches
      */
     public String getHeightInFeetAndInches() {
-        int feet = (int) getHeight() / INCHES_PER_FOOT;
-        int inch = (int) getHeight() % INCHES_PER_FOOT;
+        int feet = getHeight() / INCHES_PER_FOOT;
+        int inch = getHeight() % INCHES_PER_FOOT;
         String feetAndInch = feet + " feet ";
 
         return inch > 0 ? feetAndInch + inch + " inches" : feetAndInch;
@@ -223,18 +223,6 @@ public class Model {
     }
 
     /**
-     * prints details about models
-     */
-    public void printDetails() {
-        System.out.println("Name: " + getFullName());
-        System.out.println("Height: " + getHeightInches());
-        System.out.println("Weight: " + getWeightPounds());
-        System.out.println(getTravel());
-        System.out.println(getSmoke());
-        System.out.println();
-    }
-
-    /**
      * @return return int salary per hour
      */
     public int calculatePayDollarsPerHour() {
@@ -253,7 +241,19 @@ public class Model {
     }
 
     /**
-     * Displays all the model's information
+     * prints basic details about models
+     */
+    public void printDetails() {
+        System.out.println("Name: " + getFullName());
+        System.out.println("Height: " + getHeightInches());
+        System.out.println("Weight: " + getWeightPounds());
+        System.out.println(getTravel());
+        System.out.println(getSmoke());
+        System.out.println();
+    }
+
+    /**
+     * Displays all information about model
      */
     public void displayModelDetails() {
         System.out.println("Name: " + getFullName()); //ok
