@@ -11,20 +11,12 @@ public class Driver {
             Model model2 = new Model("Tiger", "Woods", 72, 190.0, true, false);
 
             model1.printDetails();
-            System.out.println(model1.getHeightInFeetAndInches());
-            System.out.println(model1.getWeightKg());
-            model1.setWeight(37);
-            model1.setHeight(4, 5);
-            model1.printDetails();
+            model2.printDetails();
+
+            model1.setTravel(true);
+            model1.setSmoke(false);
             model1.displayModelDetails();
-
-
-            model2.printDetails();
-            System.out.println(model2.getHeightInFeetAndInches());
-            System.out.println(model2.getWeightKg());
-            model2.setWeight(126);
-            model2.setHeight(5, 0);
-            model2.printDetails();
+            model2 = model1;
             model2.displayModelDetails();
 
         } catch (IllegalArgumentException e) {

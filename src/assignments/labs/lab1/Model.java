@@ -193,7 +193,7 @@ public class Model {
         int inch = (int) getHeight() % INCHES_PER_FOOT;
         String feetAndInch = feet + " feet ";
 
-        return inch > 0 ? feetAndInch + inch + " inch" : feetAndInch;
+        return inch > 0 ? feetAndInch + inch + " inches" : feetAndInch;
     }
 
     /**
@@ -217,9 +217,9 @@ public class Model {
      * @param feet   int height part in feet
      */
     public void setHeight(int feet, int inches) {
-        double tempHeight = Double.parseDouble(feet + "." + inches);
-        checkHeight(tempHeight * INCHES_PER_FOOT, " Height");
-        this.height = (int) tempHeight * INCHES_PER_FOOT;
+        //double tempHeight = Double.parseDouble(feet + "." + inches);
+        //checkHeight(tempHeight * INCHES_PER_FOOT, " Height");
+        this.height = (feet * INCHES_PER_FOOT) + inches;
     }
 
     /**
@@ -256,11 +256,11 @@ public class Model {
      * Displays all the model's information
      */
     public void displayModelDetails() {
-        System.out.println("Name: " + getFullName());
-        System.out.println("Height: " + getHeightInches());
-        System.out.println("Weight: " + getWeightPounds());
-        System.out.println("Travels: " + (isTravel() ? "yep" : "nope"));
-        System.out.println("Smokes: " + (isSmoke() ? "yep" : "nope"));
+        System.out.println("Name: " + getFullName()); //ok
+        System.out.println("Height: " + getHeightInFeetAndInches()); //ok
+        System.out.println("Weight: " + getWeight() + " pounds"); //ok
+        System.out.println("Travels: " + (isTravel() ? "yep" : "nope")); //ok
+        System.out.println("Smokes: " + (isSmoke() ? "yep" : "nope")); //ok
         System.out.println("Hourly rate: $" + calculatePayDollarsPerHour());
         System.out.println();
     }
