@@ -1,0 +1,69 @@
+Shanghai
+Beijing
+Lagos
+Mumbai
+Istanbul
+Tokyo
+Moscow
+Sao Paulo
+Delhi
+Cairo
+Seoul
+Jakarta
+Lima
+Mexico City
+London
+Bangkok
+New York
+Tehran
+Bogota
+Hong Kong
+Hanoi
+Rio de Janeiro
+Singapore
+Ankara
+Saint Petersburg
+Sydney
+Casablanca
+Melbourne
+Alexandria
+Johannesburg
+Giza
+İzmir
+Taipei
+Los Angeles
+Berlin
+Busan
+Madrid
+Buenos Aires
+Toronto
+Chicago
+Osaka
+Paris
+Vancouver
+Montreal
+San Francisco
+Boston
+Seattle
+Washington DC
+Philadelphia
+Portland
+Ottawa
+Miami
+Dallas
+Calgary
+Denver
+Detroit
+Houston
+Edmonton
+Las Vegas
+Atlanta
+Prague
+Auckland
+Wellington
+Christchurch
+Rome
+Barcelona
+Perth
+
+
