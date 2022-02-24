@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0218405a-e104-4246-b307-43af8c3f5a39" name="Changes" comment="Fix and finish">
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/guesscity/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/guesscity/GuessCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/guesscity/Vallidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/guesscity/cities.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/lab2/Canada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/lab2/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/lab2/Province.java" afterDir="false" />
+    <list default="true" id="0218405a-e104-4246-b307-43af8c3f5a39" name="Changes" comment="Add">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignments/labs/guessthecity/GuessTheCity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToOOP/assignments/labs/lab1/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToOOP/assignments/labs/lab1/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToOOP/assignments/labs/lab1/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToOOP/assignments/labs/lab1/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/labs/guessthecity/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/GuessCity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/Vallidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/cities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/labs/guessthecity/cities.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/assignments/labs/guesscity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver (3)">
+  <component name="RunManager" selected="Application.Driver (4)">
     <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="encapsulation.Driver" />
       <module name="IntroToOOP" />
@@ -101,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Driver (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.labs.guessthecity.Driver" />
+      <module name="IntroToOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.labs.guessthecity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classes.Driver" />
       <module name="IntroToOOP" />
@@ -114,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.FlowControl" />
-      <module name="IntroToOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Driver (4)" />
         <item itemvalue="Application.Driver (3)" />
         <item itemvalue="Application.Driver (2)" />
         <item itemvalue="Application.Driver (1)" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.FlowControl" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645395188107</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add">
+      <created>1645643380695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645643380695</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,9 +221,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add" />
     <MESSAGE value="Fix and finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix and finish" />
+    <MESSAGE value="Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IntroToOOP$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1644995074481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
