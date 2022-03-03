@@ -3,6 +3,7 @@ package week2.arraylists;
 import java.util.ArrayList;
 
 public class BasicArrayLists2 {
+
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
@@ -10,6 +11,6 @@ public class BasicArrayLists2 {
             arrayList.add((int) (Math.random() * 100));
         }
 
-        System.out.println( "ArrayList: " + arrayList);
+        System.out.println("ArrayList: " + arrayList);
     }
 }

@@ -3,6 +3,7 @@ package week2.arrays;
 import java.util.Scanner;
 
 public class WhereIsIt {
+
     public static void main(String[] args) {
         int[] array = new int[10];
         int index = 0;

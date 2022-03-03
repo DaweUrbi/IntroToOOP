@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FindingValueInArrayList {
+
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
@@ -11,7 +12,7 @@ public class FindingValueInArrayList {
             arrayList.add((int) (Math.random() * 50));
         }
 
-        System.out.println( "ArrayList: " + arrayList);
+        System.out.println("ArrayList: " + arrayList);
 
         System.out.print("Value to find: ");
         Scanner in = new Scanner(System.in);

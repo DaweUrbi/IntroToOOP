@@ -3,6 +3,7 @@ package week2.arraylists;
 import java.util.ArrayList;
 
 public class GettingTheLargestValue {
+
     public static void main(String[] args) {
         int largest = 0;
         ArrayList<Integer> arrayList = new ArrayList<>();
@@ -11,7 +12,7 @@ public class GettingTheLargestValue {
             arrayList.add((int) (Math.random() * 100));
         }
 
-        System.out.println( "ArrayList: " + arrayList);
+        System.out.println("ArrayList: " + arrayList);
 
         for (Integer n : arrayList) {
             if (n > largest) {

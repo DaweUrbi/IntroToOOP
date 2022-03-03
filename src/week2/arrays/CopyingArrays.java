@@ -22,13 +22,5 @@ public class CopyingArrays {
         System.out.println("Array 2: " + Arrays.toString(array2));
 
 
-
-
-
-
-
-
-
-
     }
 }
