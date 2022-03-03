@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0218405a-e104-4246-b307-43af8c3f5a39" name="Changes" comment="Add">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/labs/guessthecity/GuessTheCity.java" afterDir="false" />
+    <list default="true" id="0218405a-e104-4246-b307-43af8c3f5a39" name="Changes" comment="Finish GuessTheCity">
+      <change afterPath="$PROJECT_DIR$/src/Salary/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arraylists/BasicArrayLists2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arraylists/FindingValueInArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arraylists/GettingTheLargestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arraylists/LocatingTheLargestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arraylists/WhereIsIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arrays/BasicArrays2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arrays/CopyingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arrays/FindingTheLargestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arrays/LocatingTheLargestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/arrays/WhereIsIt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/labs/guessthecity/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/GuessCity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/Vallidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/labs/guesscity/cities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/labs/guessthecity/cities.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +67,13 @@
       <recent name="$PROJECT_DIR$/src/assignments/labs/guesscity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver (4)">
-    <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="encapsulation.Driver" />
+  <component name="RunManager" selected="Application.WhereIsIt (1)">
+    <configuration name="BasicArrays2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.arrays.BasicArrays2" />
       <module name="IntroToOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="encapsulation.*" />
+          <option name="PATTERN" value="week2.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.labs.lab1.Driver" />
+    <configuration name="FindingTheLargestValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.arrays.FindingTheLargestValue" />
       <module name="IntroToOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.labs.lab1.*" />
+          <option name="PATTERN" value="week2.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.labs.lab2.Driver" />
+    <configuration name="LocatingTheLargestValue (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.arrays.LocatingTheLargestValue" />
       <module name="IntroToOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.labs.lab2.*" />
+          <option name="PATTERN" value="week2.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.labs.guessthecity.Driver" />
+    <configuration name="WhereIsIt (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.arrays.WhereIsIt" />
       <module name="IntroToOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.labs.guessthecity.*" />
+          <option name="PATTERN" value="week2.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.Driver" />
+    <configuration name="WhereIsIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.arraylists.WhereIsIt" />
       <module name="IntroToOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Classes.*" />
+          <option name="PATTERN" value="week2.arraylists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver (4)" />
-        <item itemvalue="Application.Driver (3)" />
-        <item itemvalue="Application.Driver (2)" />
-        <item itemvalue="Application.Driver (1)" />
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.WhereIsIt (1)" />
+        <item itemvalue="Application.WhereIsIt" />
+        <item itemvalue="Application.LocatingTheLargestValue (1)" />
+        <item itemvalue="Application.FindingTheLargestValue" />
+        <item itemvalue="Application.BasicArrays2" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645643380695</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finish GuessTheCity">
+      <created>1645727421176</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645727421176</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix and finish" />
     <MESSAGE value="Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add" />
+    <MESSAGE value="Finish GuessTheCity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish GuessTheCity" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IntroToOOP$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1644995074481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
