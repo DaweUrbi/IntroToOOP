@@ -1,7 +1,5 @@
 package assignments.labs.lab3;
 
-import java.util.ArrayList;
-
 public abstract class Piece {
 
     private int value;
@@ -43,9 +41,8 @@ public abstract class Piece {
         return value == piece.value && isWhite == piece.isWhite;
     }
 
-    public static void printMoves(ArrayList<Piece> pieces) {
-        for (Piece piece : pieces) {
+    public static void printMoves(Piece piece) {
             piece.move();
         }
-    }
+
 }

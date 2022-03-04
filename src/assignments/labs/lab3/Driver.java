@@ -1,7 +1,6 @@
 package assignments.labs.lab3;
 
 import java.util.ArrayList;
-
 import static assignments.labs.lab3.Piece.printMoves;
 
 public class Driver {
@@ -15,13 +14,14 @@ public class Driver {
         pieces.add(new Queen(9, true));
         pieces.add(new Rook(5, true));
 
-
         for (Piece p : pieces) {
             System.out.println(p.toString());
         }
         System.out.println();
 
-        printMoves(pieces);
+        for (Piece p : pieces) {
+            printMoves(p);
+        }
 
         Piece p1 = new Pawn(1, true, true, new Queen(1, true));
         Piece p2 = new Pawn(1, true, false);
