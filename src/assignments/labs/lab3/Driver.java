@@ -27,7 +27,7 @@ public class Driver {
         Piece p2 = new Pawn(1, true, false);
         Piece p3 = new Pawn(1, false, false);
         Piece p4 = new Pawn(1, false, true, new Queen(1, true));
-        Piece p5 = new Pawn(1, true, true, new King(1, true));
+        Piece p5 = new Pawn(1, true, true, new Knight(1, true));
         System.out.println();
 
         System.out.println(p1.equals(p2));
