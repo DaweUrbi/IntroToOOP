@@ -33,7 +33,7 @@ public class Driver {
                     System.out.println("Enter name:");
                     name = in.nextLine();
                     if (("").equals(name)) {
-                        System.out.println("you must enter this field");
+                        System.out.println("You must enter this field.");
                     } else {
                         break;
                     }
@@ -43,7 +43,7 @@ public class Driver {
                     System.out.println("Enter mobile number:");
                     mobile = in.nextLine();
                     if (("").equals(mobile)) {
-                        System.out.println("you must enter this field");
+                        System.out.println("You must enter this field.");
                     } else {
                         break;
                     }
@@ -64,11 +64,11 @@ public class Driver {
                 System.out.println("Enter the position of the contact for remove from list:");
                 int position = in.nextInt();
                 if (position > contacts.getContacts().size() || position < 0) {
-                    System.out.println("Invalid number");
+                    System.out.println("Invalid number!");
                 } else {
                     Object removedName = contacts.getContacts().get(position);
                     contacts.removeContact(position);
-                    System.out.println("Successfully removed" + removedName);
+                    System.out.println("Successfully removed!" + removedName);
                     System.out.println();
                     printApp();
                 }
@@ -89,7 +89,7 @@ public class Driver {
                         System.out.println("Enter name:");
                         name = in.nextLine();
                         if (("").equals(name)) {
-                            System.out.println("you must enter this field");
+                            System.out.println("You must enter this field.");
                         } else {
                             break;
                         }
@@ -99,7 +99,7 @@ public class Driver {
                         System.out.println("Enter mobile:");
                         mobile = in.nextLine();
                         if (("").equals(mobile)) {
-                            System.out.println("you must enter this field");
+                            System.out.println("You must enter this field.");
                         } else {
                             break;
                         }
@@ -111,13 +111,13 @@ public class Driver {
                     System.out.println("Enter city:");
                     String city = in.nextLine();
                     contacts.updateContact(position, name, mobile, workNumber, company, city);
-                    System.out.println("Successfully updated");
+                    System.out.println("Successfully updated!");
                     System.out.println();
                     printApp();
                 }
 
             } else {
-                System.out.println("Invalid Input. Enter number between 1 and 5");
+                System.out.println("Invalid Input. Enter number between 1 and 5!");
             }
         }
     }
