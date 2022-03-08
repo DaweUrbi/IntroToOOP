@@ -19,6 +19,7 @@ public class Driver {
             String input = in.nextLine();
             String usernameInput = InputCollector.getUserInput(input);
             if (usernameInput.equals("5")) {
+                System.out.println("Bye, bye!");
                 System.exit(0);
 
             } else if (usernameInput.equals("1")) {

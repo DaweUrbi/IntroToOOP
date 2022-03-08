@@ -2,8 +2,8 @@ package assignments.contactList;
 
 public class InputCollector {
 
-    public static String getUserInput(String input) {
-        return input;
+    public static String getUserInput(String prompt) {
+        return prompt;
     }
 
     @Override
