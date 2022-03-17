@@ -1,4 +1,4 @@
-package Classes;
+package classes;
 
 // blueprint (template)
 public class Pokemon {
